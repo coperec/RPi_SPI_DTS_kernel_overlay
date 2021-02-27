@@ -1,5 +1,6 @@
 # RPi_SPI_DTS_kernel_overlay
 Device Tree overlay for Raspberry Pi 2/3/4/Zero - adding more /dev/spidev devices
+
 Tested on Raspian Buster, kernel 4.19.97
 
 By default RPi allows us to use 2 spidev devices on GPIOs 8 and 7(/dev/spidev0.0 and /dev/spidev0.1), so only 2 modules can communicate with it by SPI Interface.
